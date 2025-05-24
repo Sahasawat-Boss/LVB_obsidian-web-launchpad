@@ -1,5 +1,4 @@
-
-import { ChevronDown, ChevronUp, Facebook, Instagram, LinkedIn, Youtube } from 'lucide-react';
+import { ChevronDown, ChevronUp, Facebook, Instagram, Linkedin, Youtube } from 'lucide-react';
 
 const Features = () => {
   const features = [
@@ -24,7 +23,7 @@ const Features = () => {
       description: "Create stunning visual content that engages your audience and drives conversions."
     },
     {
-      icon: <LinkedIn className="w-8 h-8 text-blue-400" />,
+      icon: <Linkedin className="w-8 h-8 text-blue-400" />,
       title: "Professional Network",
       description: "Build meaningful business connections and expand your professional reach."
     },
